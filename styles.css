@@ -1,0 +1,107 @@
+body{
+    color: white;
+    background-color: #0F32C9;
+    border: calc(var(--body-border-width, 20px)* 1/1+0px) solid transparent;
+    font-family: sans-serif; 
+    font-style: normal;  
+}
+
+header {
+    z-index: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 15px 35px;
+    
+    /* padding: calc(var(--body-border-width, 20px)* 2/1+0px)  */
+}
+
+.company-logo {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    white-space: nowrap;
+    /* margin-right: 20px; */
+    width: 250px;
+    height: 75;
+}
+
+.header-logo {
+    height: 60px;
+    width: 60px;
+    padding-top: 15px
+    
+}
+
+.header-name {
+    position: relative;
+    bottom: 10px;
+}
+
+.nav-bar {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-bar ul {
+    margin: auto;
+    text-align: center;
+    margin-right: 3em; 
+}
+
+.nav-bar li{
+    color: white;
+    display: inline-block;
+    list-style: none;
+    font-size: 11px;
+    margin-right: 42.5px;
+}
+
+.subscribe-button {
+    background-color: #0F32C9;
+    border-radius: 100em;
+    cursor: pointer;
+    color: white;
+    font-size: 11px;
+    border: 1px solid white;
+    padding: 18px 39px;
+}
+
+.subscribe-button:hover {
+    background-color: white;
+    color: #0F32C9;
+    transition: all .3s;
+}
+
+.big-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.large-owl {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.title-text {
+    text-align: center;
+    font-size: 56px;
+
+}
+
+.schpeil {
+    text-align: center;
+    font-size: 16px;
+}
+
+.exploring-button {
+    margin: 0 auto;
+    
+}
